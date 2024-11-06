@@ -11,9 +11,3 @@ Este repositorio contiene mi primera página web construida utilizando HTML. En 
 **Tecnologías utilizadas:**
 
 * **HTML:** Lenguaje de marcado para estructurar el contenido web.
-
-**Cómo ver el proyecto:**
-
-1. **Clona el repositorio:**
-   ```bash
-   git clone [se quitó una URL no válida]

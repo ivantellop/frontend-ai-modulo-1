@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi página de presentación personal</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            text-align: center;
+            padding: 2em;
+            background-color: #333;
+            color: #fff;
+            width: 100%;
+        }
+        header img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin-bottom: 1em;
+        }
+        section {
+            padding: 2em;
+            margin: 1em auto;
+            max-width: 800px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            color: #333;
+        }
+        .social-links img {
+            width: 32px;
+            height: 32px;
+            margin: 0 10px;
+        }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        .contact-form button {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .fun-facts ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .fun-facts li {
+            margin: 5px 0;
+            padding-left: 1em;
+            position: relative;
+        }
+        .fun-facts li:before {
+            content: "✓";
+            color: #333;
+            font-weight: bold;
+            position: absolute;
+            left: 0;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <img src="./images/yo.jpg" alt="Aquí esta una foto de mi" title="Este soy yo, Iván">
+    <h1>César Iván Tellez Lopez</h1>
+    <p>Estudiante de Programación en DEV.F y Biotecnología</p>
+</header>
+
+<section>
+    <h2>Sobre mí</h2>
+    <p>¡Hola! Soy Iván, un estudiante de ingeniería en biotecnología y programación con una fuerte inclinación por el autoaprendizaje. Actualmente, estoy especializándome en frontend y trabajando en proyectos que integran tecnología y biotecnología. Vivo en un pueblito a las afueras de mi municipio y en el futuro me gustaría dedicarme de lleno a la programación. Practico voleibol y me gusta participar en proyectos sociales para mejorar mi comunidad.</p>
+</section>
+
+<section>
+    <h2>Experiencia y Formación</h2>
+    <ul>
+        <li>Estudiante de Biotecnología con fuerte inclinación y experiencia en el área de control de calidad</li>
+        <li>Prácticas profesionales de TSU en la empresa CIESANA, una empresa de pruebas de efectividad biológica.</li>
+        <li>Trabajé como auxiliar de una química farmacobiologa en un laboratorio de análisis clínicos</li>
+        <li>Bachillerato técnico en Ofimática, con experiencia básica en programación</li>
+    </ul>
+</section>
+
+<section>
+    <h2>Proyectos</h2>
+    <p>Mi proyecto de tesis se centra en la identificación molecular de <em>Colletotrichum spp.</em> en cultivos de fresa, utilizando técnicas avanzadas como PCR y secuenciación genética para mejorar la producción agrícola.</p>
+</section>
+
+<section class="fun-facts">
+    <h2>Datos Curiosos</h2>
+    <ul>
+        <li>Padezco rinitis alérgica, ¡así que siempre tengo alergia!</li>
+        <li>Tuve el tercer mejor promedio de mi generación en la preparatoria, con un promedio de 9.84.</li>
+        <li>Disfruto de realizar proyectos sociales para ayudar a mi comunidad y entender mejor sus necesidades.</li>
+    </ul>
+</section>
+
+<section class="social-links">
+    <h2>Redes Sociales</h2>
+    <p>
+        <a href="https://www.instagram.com/cesar_tellez?igsh=ZDR6bHUzdmV1MzE5&utm_source=qr" target="_blank">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Aquí esta el logo de Instagram" title="Enlace a mi perfil de Instagram">
+        </a>
+        <a href="https://www.facebook.com/cesar.tellez.7967?mibextid=LQQJ4d" target="_blank">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" alt="Aquí esta el logo de Facebook" title="Enlace a mi perfil de Facebook">
+        </a>
+    </p>
+</section>
+
+<section>
+    <h2>Portafolio</h2>
+    <p>Sí te gustó mi página de presentación personal y quieres ver más de mi trabajo, puedes visitar mi perfil de GitHub <a href="https://github.com/ivantellop" target="_blank">GitHub</a>, donde comparto algunos de mis proyectos y ejercicios de programación.</p>
+</section>
+
+<section>
+    <h2>Contacto</h2>
+    <form class="contact-form">
+        <input type="text" name="name" placeholder="Tu nombre" required>
+        <input type="email" name="email" placeholder="Tu correo electrónico" required>
+        <textarea name="message" placeholder="Tu mensaje" required></textarea>
+        <button type="submit">Enviar</button>
+    </form>
+      <!--En realidad este formulario no es funcional porque no esta conectado a ningún servidor, pero recien termine las lecturas de esta semana y quise poner en práctica lo que leí en ellas, espero esto no sea un problema -->
+</section>
+
+</body>
+</html>
